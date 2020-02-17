@@ -15,8 +15,8 @@ class User {
 }
 
 class Member extends User {
-    constructor(username, email, password, memberPackage) {
-        super(username, email, password);
+    constructor(username, email, password) {
+        super(username, email, password, memberPackage);
         this.memberPackage = memberPackage;
     }
 
